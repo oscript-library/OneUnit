@@ -687,7 +687,7 @@ $ oneunit execute --debug 2801
 
 Ниже пример конфигурационного файла `.bsl-language-server.json`, который позволяет запускать тесты со сбором покрытия в форматах Generic Coverage, OpenTestReport и Cobertura с последующим отображением результатов через плагин Coverage Gutter или Open Test Report Viewer.
 
-```
+```json
 {
     "codeLens": {
         "testRunner": {
